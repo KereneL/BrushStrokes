@@ -38,14 +38,14 @@ function initPalletes() {
   palletes.push([`rgba(1, 133, 88,${alpha})`, `rgba(189, 233, 2,${alpha})`, `rgba(254, 240, 49,${alpha})`]); //Lemon
   palletes.push([`rgba(255, 255, 255,${alpha})`, `rgba(125, 125, 125,${alpha})`, `rgba(0, 0, 0,${alpha})`]); //Grayscale
 
-  palletes.push([`rgba(74, 83, 107,${alpha})`, `rgba(255, 154, 141,${alpha})`, `rgba(174, 214, 220,${alpha})`]); //Grayscale
-  palletes.push([`rgba(203, 246, 219,${alpha})`, `rgba(155, 196, 114,${alpha})`, `rgba(245, 190, 180,${alpha})`]); //Grayscale
-  palletes.push([`rgba(27, 101, 53,${alpha})`, `rgba(168, 198, 108,${alpha})`, `rgba(225, 221, 114,${alpha})`]); //Grayscale
-  palletes.push([`rgba(185, 146, 94,${alpha})`, `rgba(237, 230, 185,${alpha})`, `rgba(130, 144, 121,${alpha})`]); //Grayscale
-  palletes.push([`rgba(224, 169, 109,${alpha})`, `rgba(32, 30, 32,${alpha})`, `rgba(221, 195, 165,${alpha})`]); //Grayscale
-  palletes.push([`rgba(198, 215, 235,${alpha})`, `rgba(24, 104, 174,${alpha})`, `rgba(217, 165, 179,${alpha})`]); //Grayscale
-  palletes.push([`rgba(0, 0, 0,${alpha})`, `rgba(30, 132, 127,${alpha})`, `rgba(236, 193, 156,${alpha})`]); //Grayscale
-  palletes.push([`rgba(107, 123, 140,${alpha})`, `rgba(59, 77, 97,${alpha})`, `rgba(239, 157, 16,${alpha})`]); //Grayscale
+  palletes.push([`rgba(74, 83, 107,${alpha})`, `rgba(255, 154, 141,${alpha})`, `rgba(174, 214, 220,${alpha})`]); //Set
+  palletes.push([`rgba(203, 246, 219,${alpha})`, `rgba(155, 196, 114,${alpha})`, `rgba(245, 190, 180,${alpha})`]); //Apple Strawberry
+  palletes.push([`rgba(27, 101, 53,${alpha})`, `rgba(168, 198, 108,${alpha})`, `rgba(225, 221, 114,${alpha})`]); //Slime
+  palletes.push([`rgba(185, 146, 94,${alpha})`, `rgba(237, 230, 185,${alpha})`, `rgba(130, 144, 121,${alpha})`]); //Giraffee
+  palletes.push([`rgba(224, 169, 109,${alpha})`, `rgba(32, 30, 32,${alpha})`, `rgba(221, 195, 165,${alpha})`]); //Savannah
+  palletes.push([`rgba(198, 215, 235,${alpha})`, `rgba(24, 104, 174,${alpha})`, `rgba(217, 165, 179,${alpha})`]); //Port
+  palletes.push([`rgba(0, 0, 0,${alpha})`, `rgba(30, 132, 127,${alpha})`, `rgba(236, 193, 156,${alpha})`]); //Patina
+  palletes.push([`rgba(107, 123, 140,${alpha})`, `rgba(59, 77, 97,${alpha})`, `rgba(239, 157, 16,${alpha})`]); //Sunset
   //palletes.push([`#ff0000`, '#00ff00', `#0000ff`]); TEST PALLETE
 
   palleteSwitch = Math.floor(random() * palletes.length);
